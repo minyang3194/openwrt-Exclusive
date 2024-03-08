@@ -39,6 +39,9 @@ git clone https://github.com/QiuSimons/openwrt-mos.git package/openwrt-mos
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/immortalwrt/homeproxy.git package/luci-app-homeproxy
 git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
+# git获取源码
+git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+make menuconfig
 # git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
 # git clone https://github.com/project-lede/luci-app-godproxy.git package/luci-app-godproxy
 # git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
